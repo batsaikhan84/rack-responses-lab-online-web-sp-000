@@ -1,4 +1,5 @@
 class Application
+  
   def call
     if Time.now.hour.to_i >= 12
       resp.write "Good Afternoon!"
@@ -8,4 +9,5 @@ class Application
     
     resp.finish
   end
+  
 end
