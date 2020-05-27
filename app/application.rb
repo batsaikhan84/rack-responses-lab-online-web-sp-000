@@ -5,5 +5,7 @@ class Application
     elsif Time.now.hour.to_i < 12
       resp.write "Good Morning!"
     end
+    
+    resp.finish
   end
 end
